@@ -27,9 +27,23 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 80px);
   grid-template-rows: 50px repeat(3, 80px) 60px;
+  gap: 5px;
 }
 
-.grid div {
-  background: red;
-  margin: 10px;
+.turn {
+  background: green;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.actions {
+  background-color: purple;
+}
+
+.square {
+  background-color: red;
+}
+
+.score {
+  background-color: blue;
 }
