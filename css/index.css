@@ -26,11 +26,10 @@ body {
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 80px);
+  grid-template-rows: 50px repeat(3, 80px) 60px;
 }
 
 .grid div {
-  height: 20px;
-  width: 20px;
   background: red;
   margin: 10px;
 }
